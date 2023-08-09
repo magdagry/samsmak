@@ -60,7 +60,7 @@ body {
   }
   
   .container-fluid {
-    padding: 0;
+    padding: 0!important;
   }
 
 .row {
@@ -84,6 +84,7 @@ height: 90vh;
     font-family: 'Allura', cursive;
     font-size: 3rem;
     font-weight: 500;
+    padding-top: 50px;
     ;
   }
   
@@ -156,6 +157,6 @@ a:hover {
 .footer {
     padding: 3vh;
     text-align: center;
-    background: #908080;
+    background: #c1aa94a1;;
     margin-top: 0;
   }
