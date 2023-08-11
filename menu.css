@@ -9,8 +9,19 @@ h3 {
     padding: 20px
 }
 
+/* do wygaszenia .cards */
 
 .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #ffffff22;
+  }
+
+#cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
