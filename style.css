@@ -6,9 +6,9 @@ body {
     padding: 0!important;
   }
 
-.row {
+/* .row {
 height: 90vh;
-}
+} */
 
 .row::after {
     content: "";
