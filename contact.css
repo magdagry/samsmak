@@ -18,6 +18,12 @@ form {
     padding-top: 4rem;
 }
 
+.box2 {
+    color: black;
+    font-weight: bolder;
+}
+
+
 .form-control {
     background: #f9f1e9f0;
 }

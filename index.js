@@ -81,7 +81,8 @@ $(function(){
 });
 
 // Tworzenie pojedynczej karty
-function createCardHtml(id, data, dayName, disches) {
+function createCardHtml(id, data, dayName, dishes) {
+    
     let card = `<div class="col">
     <div class="card">
       <div class="card-body">
@@ -90,8 +91,9 @@ function createCardHtml(id, data, dayName, disches) {
           ${data}
         </p>
         <p class="card-text card-text-line text-muted">
-        ${disches}
+        ....
       </p>
+        
         <a href="cars.html?id=${id}" class="btn btn-outline-secondary btn-sm">Więcej...</a>
       </div>
     </div>

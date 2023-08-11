@@ -1,0 +1,56 @@
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Allura', cursive;
+    font-weight: bolder;
+    font-size: 75px;
+    color: whitesmoke;
+    padding: 20px
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #ffffff22;
+  }
+  
+  .card {
+      max-width: 80%!important;
+      width: 80%;
+      text-align: center;
+  }
+  
+  small {
+      margin-right: 5px!important;
+  }
+
+.box1 {
+    color: black;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column.middle {
+      width: 100%;
+    }
+    .column.side {
+        display: none;
+    }
+  }
+
+  .bcg-card {
+    background-color: transparent!important;
+  }
+
+  .card-body {
+    color: black;
+    font-weight: 600;
+  }
+
