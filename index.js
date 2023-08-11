@@ -1,4 +1,4 @@
-  import { menu } from "../data.js";
+  import { menu } from "/data.js";
 
 $(function(){
 
