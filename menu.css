@@ -11,7 +11,7 @@ h3 {
 
 /* do wygaszenia .cards */
 
-.cards {
+/* .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@ h3 {
     width: 80%;
     margin-left: 10%;
     background-color: #ffffff22;
-  }
+  } */
 
 #cards {
     display: flex;
@@ -46,22 +46,21 @@ h3 {
     font-weight: bolder;
 }
 
+.bcg-card {
+    background-color: transparent!important;
+  }
 
-@media screen and (max-width: 600px) {
+.card-body {
+    color: black;
+    font-weight: 600;
+  }
+
+ 
+  @media screen and (max-width: 600px) {
     .column.middle {
       width: 100%;
     }
     .column.side {
         display: none;
     }
-  }
-
-  .bcg-card {
-    background-color: transparent!important;
-  }
-
-  .card-body {
-    color: black;
-    font-weight: 600;
-  }
-
+}
