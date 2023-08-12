@@ -3,3 +3,23 @@
     color: black;
     font-weight: bolder;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #ffffff22;}
+  
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Allura', cursive;
+        font-weight: bolder;
+        font-size: 75px;
+        color: whitesmoke;
+        padding: 20px
+    }

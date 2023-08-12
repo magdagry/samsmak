@@ -20,7 +20,8 @@ function createCardHtml(id, data, dayName, dishes) {
         let optionNumber = 1
 
         dishes.forEach(dish => {
-          card += `<p class="card-text"><small>opcja ${optionNumber}</small>${dish.name} ${dish.description} <span> <small>cena: </small>${dish.price} zł<span> </p>`;
+          card += `<div class="card-text meal">  <p class="mealName">${dish.name}</p> <hr class="mealSeparator"> <span>${dish.price} zł</span> </div>
+           <p class="mealDesc">${dish.description} blebleblebelbelbe blebele bleeb</p>`;
           optionNumber++; 
       });
 
@@ -39,3 +40,23 @@ function createGroupCardHtml(menuArray) {
 
     return group;
 }
+
+
+
+
+
+
+
+
+// $(function() {
+//   const today = new Date();
+//   const currentDayName = days[today.getDay()];
+//   const dailyMenuDay = daylyMenu.find(day => day.dayName === currentDayName);
+
+//   if (dailyMenuDay) {
+//     // Pokazanie odpowiedniej karty menu
+//     $(`#${dailyMenuDay.id}`).show();
+//   } else {
+//     $("#daily-menu-card").html("<p>Brak menu na dzisiaj.</p>");
+//   }
+// });

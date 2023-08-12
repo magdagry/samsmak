@@ -9,6 +9,10 @@ h3 {
     padding: 20px
 }
 
+h5 {
+    font-size: 30px;
+}
+
 /* do wygaszenia .cards */
 
 /* .cards {
@@ -26,15 +30,14 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     background-color: #ffffff22;
   }
   
   .card {
-      max-width: 80%!important;
-      width: 80%;
-      text-align: center;
+      max-width: 90%!important;
+      width: 90%;;
   }
   
   small {
@@ -55,6 +58,42 @@ h3 {
     font-weight: 600;
   }
 
+  .meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  .mealName {
+    font-size: 25px;
+    margin-bottom: 1px;
+  }
+
+  .mealSeparator {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #504949;
+    margin: 0 8px; /* Możesz dostosować margines do swoich preferencji */
+}
+
+hr {
+    opacity: 1.5!important;
+    margin-bottom: -15px!important;
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+
+  .mealDesc {
+    color: #504949;
+    font-size: 17px;
+  }
+
+  span {
+    color: black;
+    font-size: 20px;
+  }
  
   @media screen and (max-width: 600px) {
     .column.middle {
@@ -63,4 +102,11 @@ h3 {
     .column.side {
         display: none;
     }
+    #cards{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .card{
+    max-width: 100%!important;
+    width: 100%;}
 }
