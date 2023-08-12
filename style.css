@@ -78,6 +78,17 @@ height: 90vh;
     padding: 20px
 }
 
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Allura', cursive;
+    font-weight: bolder;
+    font-size: 75px;
+    color: whitesmoke;
+    padding: 20px
+}
+
 .boxes {
     font-family: 'Allura', cursive;
     font-size: 3rem;
@@ -103,6 +114,63 @@ a:hover {
     background: #c1aa94a1;;
     margin-top: 0;
   }
+
+  .card {
+    max-width: 90%!important;
+    width: 90%;
+    margin: 5%;
+}
+
+small {
+    margin-right: 5px!important;
+}
+
+.bcg-card {
+    background-color: transparent!important;
+  }
+
+.card-body {
+    color: black;
+    font-weight: 600;
+  }
+
+  .meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  .mealName {
+    font-size: 25px;
+    margin-bottom: 1px;
+  }
+
+  .mealSeparator {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #504949;
+    margin: 0 8px; /* Możesz dostosować margines do swoich preferencji */
+}
+
+hr {
+    opacity: 1.5!important;
+    margin-bottom: -15px!important;
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+
+  .mealDesc {
+    color: #504949;
+    font-size: 17px;
+  }
+
+  span {
+    color: black;
+    font-size: 20px;
+  }
+
 
 
 
