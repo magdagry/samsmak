@@ -89,8 +89,8 @@ export const menu = [
     },
     {
         id: 5,
-        data: "11.08.2023",
-        dayName: "Piątek",
+        data: "13.08.2023",
+        dayName: "Niedziela",
         dishes: [
             {
                 name: "Danie 51",
