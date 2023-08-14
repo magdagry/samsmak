@@ -6,9 +6,9 @@ body {
     padding: 0!important;
   }
 
-/* .row {
-height: 90vh;
-} */
+.row {
+min-height: 90vh;
+}
 
 .row::after {
     content: "";
@@ -114,6 +114,13 @@ a:hover {
     font-weight: bolder;
 }
 
+.tel {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 50px;
+}
+
 /* Footer */
 .footer {
     padding: 3vh;
@@ -189,7 +196,7 @@ small {
     flex-grow: 1;
     height: 1px;
     background-color: #504949;
-    margin: 0 8px; /* Możesz dostosować margines do swoich preferencji */
+    margin: 0 8px; 
 }
 
 hr {
