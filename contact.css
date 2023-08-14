@@ -36,11 +36,11 @@ row {
     background: #f9f1e9f0;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column.middle {
       width: 100%;
     }
-    .column.side {
+    .column.left-side {
         display: none;
     }
     form {
@@ -54,4 +54,4 @@ row {
         justify-content: center;
         align-items: center;
     }
-  }
+  } */

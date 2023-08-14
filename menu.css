@@ -95,18 +95,3 @@ hr:not([size]) {
     font-size: 20px;
   }
  
-  @media screen and (max-width: 600px) {
-    .column.middle {
-      width: 100%;
-    }
-    .column.side {
-        display: none;
-    }
-    #cards{
-        width: 95%;
-        margin-left: 2.5%;
-    }
-    .card{
-    max-width: 100%!important;
-    width: 100%;}
-}

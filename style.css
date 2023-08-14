@@ -17,11 +17,10 @@ height: 90vh;
 
 .column {
     background-color: #c1aa94a1;
-   
   }
   
   /* Left and right column */
-  .column.side, .column.left-side {
+.column.side, .column.left-side {
     background-color: #c1aa94a1;
     width: 25%;
     font-family: 'Allura', cursive;
@@ -32,49 +31,50 @@ height: 90vh;
   }
   
   /* Middle column */
-  .column.middle {
+.column.middle {
     width: 50%;
     background-image: url(img/textile-2918844_1280.jpeg); 
     justify-content: center;
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .column.middle, .column.side {
         width: 100%;
     }
     .column.side {
         padding-top: 2rem;
+        width: 100%;
     }
-    .column.side .boxes {
+    /* /* .column.side .boxes {
         font-size: 2.4rem;
         display: flex;
         justify-content: center;
         gap: 20px;
-    }
-    .boxes .box1 {
+    } */
+    /* .boxes .box1 {
         margin-top: 30px;
-    }
+    } */
     .column.left-side {
-        display: none;
-    }
+     display: none;}
+    /* }
     h2 {
         font-size: 80px!important;
-    }
+    } */
     .row {
         flex-direction: column-reverse;
         height: auto;
     }
-    #daily-menu-card{
+    /* #daily-menu-card{
         width: 95%;
         margin-left: 2.5%;
     }
     .card{
     max-width: 100%!important;
-    width: 100%;}
+    width: 100%;} */ 
   }
 
-  h2 {
+h2 {
     display: flex;
     justify-content: center;
     align-items: center;
