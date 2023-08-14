@@ -65,6 +65,13 @@ height: 90vh;
         flex-direction: column-reverse;
         height: auto;
     }
+    #daily-menu-card{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .card{
+    max-width: 100%!important;
+    width: 100%;}
   }
 
   h2 {
@@ -115,10 +122,43 @@ a:hover {
     margin-top: 0;
   }
 
+  #cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #ffffff22;
+  }
+
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #ffffff22;
+  }
+
+
+  .daily-menu-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+
   .card {
     max-width: 90%!important;
     width: 90%;
     margin: 5%;
+}
+
+h5 {
+    font-size: 30px;
 }
 
 small {
@@ -170,6 +210,29 @@ hr:not([size]) {
     color: black;
     font-size: 20px;
   }
+
+  @keyframes heartbeat {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* .text-footer p {
+    font-size: small!important;
+
+}
+
+.copyright-content {
+    border-top: 1px solid #d5d4e9;
+    padding: 15px 0;
+    margin: 45px 0 0px;
+} */
+
+.heartbeat {
+    animation: heartbeat 2.5s infinite; 
+    }
+
+
 
 
 

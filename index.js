@@ -1,7 +1,7 @@
   import { menu } from "./data.js";
 
 $(function(){
-
+  console.log('Function1');
   const dailyMenu = menu;
  
   const groupCardHtml = createGroupCardHtml(dailyMenu);
@@ -46,25 +46,9 @@ function createGroupCardHtml(menuArray) {
 
 
 
-
-
-// $(function() {
-//   const today = new Date();
-//   const currentDayName = days[today.getDay()];
-//   const dailyMenuDay = daylyMenu.find(day => day.dayName === currentDayName);
-
-//   if (dailyMenuDay) {
-//     // Pokazanie odpowiedniej karty menu
-//     displayDailyMenuCard(dailyMenuDay);
-//   } else {
-//     $("#day-card").html("<p>Brak menu na dzisiaj.</p>");
-//   }
-// });s
-
 (function() {
-  const today = new Date();
-  const currentDayName = menu[0].dayName;
-  const dailyMenuDay = menu.find(day => day.dayName === currentDayName);
+  const dayNumber = new Date().getDay();
+  const dailyMenuDay = menu.find(day => day.id === dayNumber);
 
   if (dailyMenuDay) {
     const cardHtml = createDailyCardHtml(dailyMenuDay.id, dailyMenuDay.data, dailyMenuDay.dayName, dailyMenuDay.dishes);

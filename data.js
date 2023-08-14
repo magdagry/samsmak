@@ -1,5 +1,27 @@
 export const menu = [
     {
+        id: 0,
+        data: "07.08.2023",
+        dayName: "Niedziela",
+        dishes: [
+            {
+                name: "Danie 1",
+                description: "Opis dania 1",
+                price: 1
+            },
+            {
+                name: "Danie 2",
+                description: "Opis dania 2",
+                price: 2
+            },
+            {
+                name: "Danie 3",
+                description: "Opis dania 3",
+                price: 3
+            },
+        ]
+    },
+    {
         id: 1,
         data: "07.08.2023",
         dayName: "Poniedziałek",
@@ -90,7 +112,7 @@ export const menu = [
     {
         id: 5,
         data: "13.08.2023",
-        dayName: "Niedziela",
+        dayName: "Piątek",
         dishes: [
             {
                 name: "Danie 51",
