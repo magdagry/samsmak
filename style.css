@@ -6,7 +6,7 @@ body {
     padding: 0!important;
   }
 
-.row {
+.main {
 min-height: 90vh;
 }
 
@@ -64,6 +64,10 @@ min-height: 90vh;
     .row {
         flex-direction: column-reverse;
         height: auto;
+    }
+    form {
+        width: 90%!important;
+        margin: 5%!important;
     }
     /* #daily-menu-card{
         width: 95%;
