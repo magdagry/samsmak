@@ -21,7 +21,7 @@ function createCardHtml(id, data, dayName, dishes) {
 
         dishes.forEach(dish => {
           card += `<div class="card-text meal">  <p class="mealName">${dish.name}</p> <hr class="mealSeparator"> <span>${dish.price} zł</span> </div>
-           <p class="mealDesc">${dish.description} blebleblebelbelbe blebele bleeb</p>`;
+           <p class="mealDesc">${dish.description}</p>`;
           optionNumber++; 
       });
 

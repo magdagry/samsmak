@@ -1,4 +1,4 @@
-h3 {
+/* h3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@ h3 {
     font-size: 75px;
     color: whitesmoke;
     padding: 20px
-}
+} */
 
 h5 {
     font-size: 30px;
@@ -35,10 +35,10 @@ h5 {
     background-color: #ffffff22;
   }
   
-  .card {
+  /* .card {
       max-width: 90%!important;
       width: 90%;;
-  }
+  } */
   
   small {
       margin-right: 5px!important;
@@ -64,17 +64,6 @@ h5 {
     justify-content: space-between;
 }
 
-  .mealName {
-    font-size: 25px;
-    margin-bottom: 1px;
-  }
-
-  .mealSeparator {
-    flex-grow: 1;
-    height: 1px;
-    background-color: #504949;
-    margin: 0 8px; /* Możesz dostosować margines do swoich preferencji */
-}
 
 hr {
     opacity: 1.5!important;
@@ -90,8 +79,8 @@ hr:not([size]) {
     font-size: 17px;
   }
 
-  span {
+  /* span {
     color: black;
     font-size: 20px;
-  }
+  } */
  

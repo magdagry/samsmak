@@ -5,19 +5,19 @@ export const menu = [
         dayName: "Niedziela",
         dishes: [
             {
-                name: "Danie 1",
-                description: "Opis dania 1",
-                price: 1
+                name: "POMIDOROWA",
+                description: "Zupa pomidorowa z ryżem",
+                price: 7
             },
             {
-                name: "Danie 2",
-                description: "Opis dania 2",
-                price: 2
+                name: "PIEROGI RUSKIE",
+                description: "z pieczarkami lub skwarkami",
+                price: 19
             },
             {
-                name: "Danie 3",
-                description: "Opis dania 3",
-                price: 3
+                name: "KOTLET SCHABOWY",
+                description: "z ziemniakami i zestawem surówek",
+                price: 22
             },
         ]
     },
@@ -27,19 +27,19 @@ export const menu = [
         dayName: "Poniedziałek",
         dishes: [
             {
-                name: "Danie 11",
-                description: "Opis dania 11",
-                price: 11
+                name: "ZUPA JARZYNOWA ",
+                description: "",
+                price: 7
             },
             {
-                name: "Danie 12",
-                description: "Opis dania 12",
+                name: "KLUSKI ŚLĄSKIE ",
+                description: "Z sosem lub masłem",
                 price: 12
             },
             {
-                name: "Danie 13",
-                description: "Opis dania 13",
-                price: 13
+                name: "WĄTRÓBKA Z CEBULKĄ ",
+                description: "Z ziemniakami i zestawem surówek",
+                price: 18
             },
         ]
     },
@@ -49,19 +49,19 @@ export const menu = [
         dayName: "Wtorek",
         dishes: [
             {
-                name: "Danie 21",
-                description: "Opis dania 21",
-                price: 21
+                name: "KAPUŚNIAK",
+                description: "",
+                price: 7
             },
             {
-                name: "Danie 12",
-                description: "Opis dania 22",
+                name: "PIEROGI Z MIĘSEM",
+                description: "",
+                price: 13
+            },
+            {
+                name: "SCHAB PO KAPITAŃSKU ",
+                description: "Z ziemniakami i zestawem surówek",
                 price: 22
-            },
-            {
-                name: "Danie 13",
-                description: "Opis dania 23",
-                price: 23
             },
         ]
     },
@@ -71,19 +71,19 @@ export const menu = [
         dayName: "Sroda",
         dishes: [
             {
-                name: "Danie 31",
-                description: "Opis dania 31",
+                name: "BOROWIKOWA",
+                description: "Zupa borowikowa z makaronem",
                 price: 31
             },
             {
-                name: "Danie 32",
-                description: "Opis dania 32",
+                name: "PLACKI ZIEMNIACZNE",
+                description: "ze śmietaną lub sosem",
                 price: 12
             },
             {
-                name: "Danie 33",
-                description: "Opis dania 33",
-                price: 33
+                name: "SZNYCEL PO CHŁOPSKU ",
+                description: "Podawany z ziemniakami i zestawem surówek",
+                price: 18
             },
         ]
     },
@@ -93,19 +93,19 @@ export const menu = [
         dayName: "Czwartek",
         dishes: [
             {
-                name: "Danie 41",
-                description: "Opis dania 41",
-                price: 41
+                name: "OGÓRKOWA",
+                description: "Zupa ogórkowa z ziemniakami",
+                price: 7
             },
             {
-                name: "Danie 42",
-                description: "Opis dania 42",
-                price: 42
+                name: "PIEROGI ZE SZPINAKIEM ",
+                description: "",
+                price: 13
             },
             {
-                name: "Danie 43",
-                description: "Opis dania 43",
-                price: 43
+                name: "BRYZOL Z PIECZARKAMI",
+                description: "podawany z ziemniakami i zestawem surówek",
+                price: 20
             },
         ]
     },
@@ -115,19 +115,19 @@ export const menu = [
         dayName: "Piątek",
         dishes: [
             {
-                name: "Danie 51",
-                description: "Opis dania 51",
-                price: 51
+                name: "GROCHÓWKA WOJSKOWA ",
+                description: "z ziemniakami drobno krojonymi",
+                price: 13
             },
             {
-                name: "Danie 52",
-                description: "Opis dania 52",
-                price: 52
+                name: "NALEŚNIKI ",
+                description: "z serem lub z jabłkami 2 szt.",
+                price: 12
             },
             {
-                name: "Danie 53",
-                description: "Opis dania 53",
-                price: 53
+                name: "KARKÓWKA PIECZONA",
+                description: "z ziemniakami i zestawem surówek",
+                price: 21
             },
         ]
     },

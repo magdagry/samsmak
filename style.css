@@ -36,6 +36,29 @@ min-height: 90vh;
     background-image: url(img/textile-2918844_1280.jpeg); 
     justify-content: center;
   }
+
+  span {
+    color: black;
+    font-size: 20px;
+  }
+
+  .mealName {
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
+  .card {
+    max-width: 90%!important;
+    width: 90%;
+    margin: 5%;
+}
+
+/* Footer */
+.footer {
+    padding: 3vh;
+    text-align: center;
+    background: #c1aa94a1;;
+    margin-top: 0;
+  }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -46,28 +69,64 @@ min-height: 90vh;
         padding-top: 2rem;
         width: 100%;
     }
-    /* /* .column.side .boxes {
-        font-size: 2.4rem;
+    .card {
+        max-width: 98%!important;
+        width: 98%!important;
+    }
+    .column.side .boxes {
+        font-size: 30px;
         display: flex;
         justify-content: center;
         gap: 20px;
-    } */
-    /* .boxes .box1 {
+    }
+    .boxes .box1 {
         margin-top: 30px;
-    } */
+    }
+
+    span {
+        font-size: 15px;
+    }
+
     .column.left-side {
-     display: none;}
-    /* }
+     display: none;
+    }
+    .mealName {
+        font-size: 15px;
+    }
+
+    #cards {
+     width: 98%;
+    margin-left: 1%;
+    
+      }
+    h3 {
+        font-size: 50px!important;
+        margin-bottom: -30px;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    .meal {
+        font-size: 15px;
+    }
+
     h2 {
         font-size: 80px!important;
-    } */
+    }
     .row {
         flex-direction: column-reverse;
         height: auto;
     }
+    .card {
+        max-width: 98%!important;
+        width: 98%;
+    }
     form {
         width: 90%!important;
         margin: 5%!important;
+    }
+    .footer {
+        font-size: 15px;
     }
     /* #daily-menu-card{
         width: 95%;
@@ -76,8 +135,8 @@ min-height: 90vh;
     .card{
     max-width: 100%!important;
     width: 100%;} */ 
-  }
-
+}
+    
 h2 {
     display: flex;
     justify-content: center;
@@ -125,34 +184,6 @@ a:hover {
         margin-bottom: 50px;
 }
 
-/* Footer */
-.footer {
-    padding: 3vh;
-    text-align: center;
-    background: #c1aa94a1;;
-    margin-top: 0;
-  }
-
-  #cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin-left: 5%;
-    background-color: #ffffff22;
-  }
-
-  .cards {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin-left: 5%;
-    background-color: #ffffff22;
-  }
-
-
   .daily-menu-card {
     display: flex;
     flex-direction: column;
@@ -162,11 +193,7 @@ a:hover {
     margin-left: 5%;
   }
 
-  .card {
-    max-width: 90%!important;
-    width: 90%;
-    margin: 5%;
-}
+
 
 h5 {
     font-size: 30px;
@@ -191,10 +218,6 @@ small {
     justify-content: space-between;
 }
 
-  .mealName {
-    font-size: 25px;
-    margin-bottom: 1px;
-  }
 
   .mealSeparator {
     flex-grow: 1;
@@ -212,17 +235,12 @@ hr:not([size]) {
     height: 2px;
 }
 
-  .mealDesc {
+.mealDesc {
     color: #504949;
     font-size: 17px;
   }
 
-  span {
-    color: black;
-    font-size: 20px;
-  }
-
-  @keyframes heartbeat {
+@keyframes heartbeat {
     0% { opacity: 0; }
     50% { opacity: 1; }
     100% { opacity: 0; }
