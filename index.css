@@ -7,3 +7,9 @@
 /* .row {
     height: 90vh;
 } */
+
+
+@media screen and (max-width: 600px) {
+    .column.middle {
+        height: 65vh;
+    }}

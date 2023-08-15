@@ -52,6 +52,21 @@ min-height: 90vh;
     margin: 5%;
 }
 
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #ffffff22;
+  }
+  
+.card {
+    max-width: 98%!important;
+    width: 98%;
+}
+
 /* Footer */
 .footer {
     padding: 3vh;
@@ -65,6 +80,9 @@ min-height: 90vh;
     .column.middle, .column.side {
         width: 100%;
     }
+    .main {
+        min-height: auto;
+        }
     .column.side {
         padding-top: 2rem;
         width: 100%;
@@ -72,6 +90,7 @@ min-height: 90vh;
     .card {
         max-width: 98%!important;
         width: 98%!important;
+        margin: 1%;
     }
     .column.side .boxes {
         font-size: 30px;
@@ -117,10 +136,7 @@ min-height: 90vh;
         flex-direction: column-reverse;
         height: auto;
     }
-    .card {
-        max-width: 98%!important;
-        width: 98%;
-    }
+ 
     form {
         width: 90%!important;
         margin: 5%!important;

@@ -25,15 +25,7 @@ h5 {
     background-color: #ffffff22;
   } */
 
-#cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin-left: 5%;
-    background-color: #ffffff22;
-  }
+
   
   /* .card {
       max-width: 90%!important;
